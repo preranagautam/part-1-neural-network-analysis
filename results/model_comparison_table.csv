@@ -1,0 +1,6 @@
+Configuration,Architecture,Activation,Learning Rate,Batch Size,Train Acc (%),Test Acc (%),Train Loss,Test Loss,AUC-ROC,Churn Recall
+Config A – Baseline,"[24, 32, 1]",relu,0.01,32,98.38,95.0,0.0695,3.6451,0.7868,0.333
+Config B – Deeper Network,"[24, 64, 32, 1]",relu,0.01,32,99.94,97.75,0.0078,7.4052,0.7102,0.333
+Config C – Low Learning Rate,"[24, 32, 1]",relu,0.001,32,82.69,79.75,0.6359,0.7672,0.8993,1.0
+Config D – Large Batch Size,"[24, 32, 1]",relu,0.01,128,92.81,86.5,0.3067,0.9751,0.8697,0.667
+Config E – Tanh + Wider,"[24, 64, 32, 1]",tanh,0.005,32,99.44,97.0,0.0448,2.621,0.8536,0.167
