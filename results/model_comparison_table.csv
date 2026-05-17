@@ -1,0 +1,4 @@
+Hidden Layers,Learning Rate,Batch Size,Epochs,Activation,Test Accuracy
+[32],0.001,32,30,relu,0.985
+"[64, 32]",0.001,32,50,relu,0.9825
+"[128, 64]",0.0005,16,60,tanh,0.98
