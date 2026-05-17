@@ -1,5 +1,3 @@
-# part-1-neural-network-analysis
-
 # Part 1 – Neural Network Fundamentals and Training Behaviour Analysis
 
 ## Overview
@@ -94,3 +92,6 @@ See `requirements.txt`. Core dependencies:
 - `matplotlib` — plotting
 
 No TensorFlow or PyTorch required.
+
+## Author
+Prerana Gautam Shukla
